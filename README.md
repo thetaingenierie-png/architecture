@@ -13,7 +13,10 @@ Les skills AutoCAD sont dans [thetaingenierie-png/autocad-skills](https://github
 | Autodesk Product Help | Documentation officielle à jour : Revit, ferraillage, AutoCAD, Robot, Navisworks, Civil 3D. |
 | IFC | Métrés béton et acier depuis un fichier IFC, sans Revit ouvert. |
 | AutoCAD | Plans DXF, sans AutoCAD ouvert. |
-| Fusion Data | Projets Fusion, après une connexion au compte Autodesk. |
+| Rhino | Maquettes 3D `.3dm`, volumes et nomenclatures, sans Rhino installé. Rhino 8 ouvert ajoute Grasshopper. |
+| Blender | Modélisation 3D. Le connecteur démarre partout ; la scène en direct demande Blender et son extension. |
+| SketchUp | Maquettes SketchUp. Le connecteur démarre partout ; le modèle en direct demande SketchUp et son extension. |
+| Fusion Data | Projets Fusion 3D, après une connexion au compte Autodesk. |
 
 Sur un PC Windows où Revit 2027.2 et le serveur officiel Read-Tools sont installés, `scripts/install.py` ajoute aussi le connecteur Revit. Il ne parle au modèle que pendant que Revit est ouvert.
 

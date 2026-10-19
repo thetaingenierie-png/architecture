@@ -20,6 +20,21 @@
       "type": "stdio",
       "command": "uvx",
       "args": ["ifc-mcp", "serve", "--transport", "stdio", "--quiet"]
+    },
+    "rhino": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--from", "rhino3dm-mcp", "rhino-mcp"]
+    },
+    "blender": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-for-blender"]
+    },
+    "sketchup": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["sketchup-mcp2"]
     }
   }
 }

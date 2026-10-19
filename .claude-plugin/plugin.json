@@ -1,7 +1,7 @@
 {
   "name": "theta-architecture",
   "version": "1.0.0",
-  "description": "Connecteurs Claude de Theta Ingénierie pour l'architecture et le béton armé : aide Autodesk, AutoCAD, IFC et Fusion.",
+  "description": "Connecteurs Claude de Theta Ingénierie pour l'architecture, le béton armé et la 3D : Autodesk, AutoCAD, IFC, Rhino, Blender, SketchUp et Fusion.",
   "author": {
     "name": "Theta Ingénierie",
     "url": "https://github.com/thetaingenierie-png"

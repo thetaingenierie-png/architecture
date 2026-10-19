@@ -90,6 +90,21 @@ def desktop_servers():
             "args": ["ifc-mcp", "serve", "--transport", "stdio", "--quiet"],
             "env": env,
         },
+        "rhino": {
+            "command": uvx,
+            "args": ["--from", "rhino3dm-mcp", "rhino-mcp"],
+            "env": env,
+        },
+        "blender": {
+            "command": uvx,
+            "args": ["mcp-for-blender"],
+            "env": env,
+        },
+        "sketchup": {
+            "command": uvx,
+            "args": ["sketchup-mcp2"],
+            "env": env,
+        },
     }
     if sys.platform == "win32" and REVIT_EXE.exists():
         servers["revit"] = {
@@ -118,6 +133,24 @@ def code_servers():
             "type": "stdio",
             "command": uvx,
             "args": ["ifc-mcp", "serve", "--transport", "stdio", "--quiet"],
+            "env": {"PATH": path_env()},
+        },
+        "rhino": {
+            "type": "stdio",
+            "command": uvx,
+            "args": ["--from", "rhino3dm-mcp", "rhino-mcp"],
+            "env": {"PATH": path_env()},
+        },
+        "blender": {
+            "type": "stdio",
+            "command": uvx,
+            "args": ["mcp-for-blender"],
+            "env": {"PATH": path_env()},
+        },
+        "sketchup": {
+            "type": "stdio",
+            "command": uvx,
+            "args": ["sketchup-mcp2"],
             "env": {"PATH": path_env()},
         },
     }
