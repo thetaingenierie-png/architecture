@@ -1,0 +1,14 @@
+{
+  "name": "theta-architecture",
+  "version": "1.0.0",
+  "description": "Connecteurs Claude de Theta Ingénierie pour l'architecture et le béton armé : aide Autodesk, AutoCAD, IFC et Fusion.",
+  "author": {
+    "name": "Theta Ingénierie",
+    "url": "https://github.com/thetaingenierie-png"
+  },
+  "homepage": "https://github.com/thetaingenierie-png/architecture",
+  "repository": "https://github.com/thetaingenierie-png/architecture",
+  "license": "MIT",
+  "keywords": ["architecture", "beton-arme", "revit", "autocad", "ifc", "autodesk", "bim"],
+  "mcpServers": "./.mcp.json"
+}

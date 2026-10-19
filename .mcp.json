@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "autodesk-product-help": {
+      "type": "http",
+      "url": "https://developer.api.autodesk.com/knowledge/public/v1/mcp"
+    },
+    "autodesk-fusion-data": {
+      "type": "http",
+      "url": "https://developer.api.autodesk.com/fusion/mcp"
+    },
+    "autocad": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--from", "autocad-mcp-pro", "autocad-mcp"],
+      "env": {
+        "AUTOCAD_MCP_BACKEND": "ezdxf"
+      }
+    },
+    "ifc": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["ifc-mcp", "serve", "--transport", "stdio", "--quiet"]
+    }
+  }
+}
